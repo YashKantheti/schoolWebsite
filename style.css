@@ -1,0 +1,176 @@
+/* Global Styles */
+body {
+    background-color: #e0f0ff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border: 3px solid #45147e;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Typography Styles */
+h1 {
+    color: #45147e;
+    text-align: center;
+    border-bottom: 2px solid #45147e;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #45147e;
+    margin-top: 25px;
+    border-left: 5px solid #45147e;
+    padding-left: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Image Styles */
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    border: 2px solid #45147e;
+}
+
+/* Section Styles */
+section {
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.experience, .skills, .achievements, .career {
+    background-color: #f0f7ff;
+    padding: 15px;
+    border: 2px solid #45147e;
+    border-radius: 5px;
+}
+
+.contact {
+    margin-top: 25px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid #45147e;
+    border-radius: 5px;
+}
+
+.contact a {
+    margin: 0 10px;
+    color: #45147e;
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 8px;
+}
+
+/* PDF Link Styles */
+.pdf-link {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pdf-link a {
+    background-color: #45147e;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border: 2px solid #45147e;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pdf-link a:hover {
+    background-color: white;
+    color: #45147e;
+}
+
+/* Navigation Styles */
+.navigation {
+    background-color: #45147e;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 3px solid #45147e;
+    z-index: 100;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    margin: 0 15px;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #6a2ea4;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #45147e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 3px solid #45147e;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 10px;
+    }
+    
+    .navigation ul {
+        flex-direction: column;
+    }
+    
+    .navigation li {
+        margin: 5px 0;
+    }
+    
+    .profile-image {
+        height: 150px;
+    }
+}
